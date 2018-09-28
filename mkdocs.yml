@@ -35,7 +35,7 @@ copyright: 'Copyright &copy; 2016 - 2018 Martin Donath'
 # Configuration
 theme:
   name: null
-  custom_dir: 'material'
+  custom_dir: 'mkdocs-material/material'
 
   # 404 page
   static_templates:
