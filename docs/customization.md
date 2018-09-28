@@ -136,9 +136,9 @@ define the block, e.g.:
 ``` jinja
 {% raw %}{% extends "base.html" %}{% endraw %}
 
-{% block htmltitle %}
+{% raw %}{% block htmltitle %}
   <title>Lorem ipsum dolor sit amet</title>
-{% endblock %}
+{% endblock %}{% endraw %}
 ```
 
 The Material theme provides the following template blocks:
