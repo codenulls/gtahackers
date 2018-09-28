@@ -134,7 +134,7 @@ override a template block, create a `main.html` inside the theme directory and
 define the block, e.g.:
 
 ``` jinja
-{% extends "base.html" %}
+{% raw %}{% extends "base.html" %}{% endraw %}
 
 {% block htmltitle %}
   <title>Lorem ipsum dolor sit amet</title>
