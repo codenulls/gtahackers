@@ -1,5 +1,0 @@
-site_name: My Docs
-
-theme:
-  name: 'material'
-  custom_dir: 'site'
