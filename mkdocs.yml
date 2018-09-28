@@ -22,11 +22,11 @@
 site_name: Material for MkDocs
 site_description: A Material Design theme for MkDocs
 site_author: Martin Donath
-site_url: https://squidfunk.github.io/mkdocs-material/
+site_url: https://codenulls.github.io/gtahackers/
 
 # Repository
-repo_name: squidfunk/mkdocs-material
-repo_url: https://github.com/squidfunk/mkdocs-material
+repo_name: codenulls/gtahackers
+repo_url: https://github.com/codenulls/gtahackers
 edit_uri: ""
 
 # Copyright
@@ -35,7 +35,7 @@ copyright: 'Copyright &copy; 2016 - 2018 Martin Donath'
 # Configuration
 theme:
   name: null
-  custom_dir: material
+  custom_dir: 'gtahackers/material'
 
   # 404 page
   static_templates:
