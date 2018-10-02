@@ -1,0 +1,134 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: GTA Documentation
+  version:
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Overview
+    output: web, pdf
+    folderitems:
+      - title: Welcome
+        url: /index.html
+        output: web, pdf
+      - title: Contribution
+        url: /gta_overview_contribution.html
+        output: web, pdf
+
+  - title: File Formats
+    output: web, pdf
+    folderitems:
+      - title: IMG
+        url: /gta_fileformat_img.html
+        output: web, pdf        
+      - title: DAT
+        url: /gta_fileformat_dat.html
+        output: web, pdf
+      - title: DFF
+        url: /gta_fileformat_dff.html
+        output: web, pdf
+      - title: COL
+        url: /gta_fileformat_col.html
+        output: web, pdf
+      - title: TXD
+        url: /gta_fileformat_txd.html
+        output: web, pdf
+      - title: IFP
+        url: /gta_fileformat_ifp.html
+        output: web, pdf
+
+  - title: Entity
+    output: web, pdf
+    folderitems:
+      - title: CEntity
+        url: /gta_entity_centity.html
+        output: web, pdf
+      - title: CPhysical
+        url: /gta_entity_cphysical.html
+        output: web, pdf
+      - title: CPlaceable
+        url: /gta_entity_cplaceable.html
+        output: web, pdf
+      
+  - title: Animation
+    output: web, pdf
+    folderitems:
+      - title: Introduction
+        url: /gta_animation_introduction.html
+        output: web, pdf      
+
+  - title: Physics
+    output: web, pdf
+    folderitems:
+      - title: Introduction
+        url: /gta_physics_introduction.html
+        output: web, pdf      
+
+  # - title: Task System
+  #   output: web, pdf
+  #   folderitems:
+  #     - title: Introduction
+  #       url: /gta_tasks_introduction.html
+  #       output: web, pdf
+  #     - title: Enums
+  #       output: web, pdf
+  #       subfolders:
+  #         - title: Simple Tasks
+  #           output: web, pdf
+  #           subfolderitems:
+  #             - title: Introduction
+  #               output: web, pdf
+  #               subsubfolders:
+  #                 - title: CTaskSimpleCarSetPedInAsDriver
+  #                   output: web, pdf
+  #                   subsubfolderitems:
+  #                     - title: Class
+  #                       output: web, pdf
+  #                     - title: Constructor
+  #                       output: web, pdf
+  #         - title: CSimple
+  #           output: web, pdf
+  #           subfolderitems:
+  #             - title: Class
+  #               output: web, pdf
+  #             - title: Constructor
+  #               output: web, pdf
+
+  # - title: Streaming and Rendering
+  #   output: web, pdf
+  #   folderitems:
+  #     - title: Introduction
+  #       output: web, pdf
+  #     - title: Enums
+  #       output: web, pdf
+  #       subfolders:
+  #         - title: CStreaming
+  #           output: web, pdf
+  #           subfolderitems:
+  #             - title: Class
+  #               output: web, pdf
+  #             - title: MakeSpaceForObject
+  #               output: web, pdf
+  #         - title: CRenderer
+  #           output: web, pdf
+  #           subfolderitems:
+  #             - title: Class
+  #               output: web, pdf
+  #             - title: AddEntityToRenderList
+  #               output: web, pdf
+  #             - title: SetupEntityVisibility
+  #               output: web, pdf
