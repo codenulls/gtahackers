@@ -1,4 +1,4 @@
-repository: tomjoht/documentation-theme-jekyll
+repository: codenulls/gtahackers
 
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
@@ -12,10 +12,10 @@ site_title: Code Nulls
 company_name: Code Nulls
 # this appears in the footer
 
-github_editme_path: tomjoht/documentation-theme-jekyll/blob/gh-pages/
+github_editme_path: codenulls/gtahackers/blob/master/
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
-# gitlab_editme_path: tomjoht/documentation-theme-jekyll/blob/gh-pages/
+# gitlab_editme_path: tomjoht/documentation-theme-jekyll/blob/master/
 # if you're using GitLab, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
 disqus_shortname: codenulls
@@ -75,7 +75,7 @@ defaults:
       layout: "page"
       comments: true
       search: true
-      sidebar: home_sidebar
+      sidebar: gta_sidebar
       topnav: topnav
   -
     scope:
@@ -95,17 +95,13 @@ defaults:
       layout: "post"
       comments: true
       search: true
-      sidebar: home_sidebar
+      sidebar: gta_sidebar
       topnav: topnav
 
 # these are defaults used for the frontmatter for these file types
 
 sidebars:
 - gta_sidebar
-- mydoc_sidebar
-- product1_sidebar
-- product2_sidebar
-- other
 
 description: "The main goal of this website is to document GTA classes with proper examples and to show how you can use DirectX for creating modern 3D games."
 # the description is used in the feed.xml file
