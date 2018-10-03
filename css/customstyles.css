@@ -847,6 +847,12 @@ span.soft {
     background-color: whitesmoke;
 }
 
+@media (max-width: 398px) {
+    .iframe-container-discord iframe {
+        width: 100% !important;
+    }
+}
+
 @media (max-width: 767px) {
     .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
         color: #444;
@@ -1198,4 +1204,27 @@ h4.panel-title {
     .collapse.in{
         display:block !important;
     }
+}
+
+
+.iframe-container-discord {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height:500px;
+    display: block;      
+    margin: auto;
+}
+
+.iframe-container-discord iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 350px;
+    height: 100%;
+}
+
+/* 4x3 Aspect Ratio */
+.iframe-container-discord-4x3 {
+  padding-top: 75%;
 }
