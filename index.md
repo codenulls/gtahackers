@@ -36,7 +36,7 @@ You'll need at least IDA Pro 7.0 or higher to open them because it comes with He
 
 ## DISCORD
 
-I believe that communication is the key. If you need help with a mod or you simply wish to contribute then why not join our discord server? We're always talking about GTA on how we can improve the modding community.
+I believe that communication is the key. If you need help with a mod or you simply wish to contribute then why not join our discord server? We're always discussing on how we can improve the modding community.
 
 <div class="iframe-container-discord">
     <iframe src="https://discordapp.com/widget?id=479682870047408139&theme=dark" allowtransparency="true" frameborder="0"></iframe>
