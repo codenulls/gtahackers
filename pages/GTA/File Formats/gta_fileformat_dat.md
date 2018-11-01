@@ -16,34 +16,14 @@ IMG | <img src="https://www.gtainside.com/downloads/picr/2017-08/1503174392_gta_
 IMGLIST | <img src="http://files.softicons.com/download/game-icons/gta-iv-icons-by-th3-prophetman/ico/IV.ico" width="16" height= "16"> | Links to external image list files. | IMGLIST common:/DATA/EXAMPLE.TXT
 WATER | <img src="http://files.softicons.com/download/game-icons/gta-iv-icons-by-th3-prophetman/ico/IV.ico" width="16" height= "16"> | Links to external water plane placement files. The identifier can hold more than one parameter. It is unconfirmed either this also works for other identifiers. | WATER /DATA/EXAMPLE1.DAT
 IDE | <img src="http://aux.iconspalace.com/uploads/gta-iii-icon-128.png" width="16" height= "16"><img src="https://steamuserimages-a.akamaihd.net/ugc/884253767815809101/E12B2FBA58134B56A8B7D046F5109390D1C06F2C/" width="16" height= "16"><img src="https://www.gtainside.com/downloads/picr/2017-08/1503174392_gta_sa.jpg" width="16" height= "16"><img src="http://files.softicons.com/download/game-icons/gta-iv-icons-by-th3-prophetman/ico/IV.ico" width="16" height= "16"> | Links to item definition files. | IDE DATA\MAPS\EXAMPLE.IDE
-
-COLFILE 	GTA III GTA Vice City GTA San Andreas 	Links to collision files. An additional parameter between keyword and path associates the file to a level. If this is 0, the col file is used by the whole map; a higher number (1 to 3) assigns it to one of the level. 	
-
-COLFILE 0 MODELS\COLL\EXAMPLE.COL
-
-MAPZONE 	GTA III 	Links to zone files. 	
-
-MAPZONE DATA\EXAMPLE.ZON
-
-IPL 	GTA III GTA Vice City GTA San Andreas 	Links to IPL-style item placement and zone files. 	
-
-IPL DATA\EXAMPLE.ZON
-IPL DATA\MAPS\EXAMPLE.IPL
-
-TEXDICTION 	GTA III GTA Vice City GTA San Andreas 	Links to external texture dictionaries. 	
-
-TEXDICTION MODELS\EXAMPLE.TXD
-
-MODELFILE 	GTA III GTA Vice City GTA San Andreas 	Links to external model files. 	
-
-MODELFILE MODELS\GENERIC\EXAMPLE.DFF
-
-SPLASH 	GTA III GTA Vice City GTA San Andreas 	Links to splash screens that appear when transitioning between levels. The argument for these is not a path, but just the name (without extension) of a texture dictionary in the \models\txd directory. Might be ignored, though. 	
-
-SPLASH loadsc2
-
-HIERFILE 	GTA III GTA Vice City GTA San Andreas 	Unknown purpose. 	
-EXIT 	GTA III GTA Vice City GTA San Andreas 	Stops any further processing of the file. 	
+COLFILE | <img src="http://aux.iconspalace.com/uploads/gta-iii-icon-128.png" width="16" height= "16"><img src="https://steamuserimages-a.akamaihd.net/ugc/884253767815809101/E12B2FBA58134B56A8B7D046F5109390D1C06F2C/" width="16" height= "16"><img src="https://www.gtainside.com/downloads/picr/2017-08/1503174392_gta_sa.jpg" width="16" height= "16"> | Links to collision files. An additional parameter between keyword and path associates the file to a level. If this is 0, the col file is used by the whole map; a higher number (1 to 3) assigns it to one of the level. | COLFILE 0 MODELS\COLL\EXAMPLE.COL
+MAPZONE | <img src="http://aux.iconspalace.com/uploads/gta-iii-icon-128.png" width="16" height= "16"> | Links to zone files. | MAPZONE DATA\EXAMPLE.ZON
+IPL | <img src="http://aux.iconspalace.com/uploads/gta-iii-icon-128.png" width="16" height= "16"><img src="https://steamuserimages-a.akamaihd.net/ugc/884253767815809101/E12B2FBA58134B56A8B7D046F5109390D1C06F2C/" width="16" height= "16"><img src="https://www.gtainside.com/downloads/picr/2017-08/1503174392_gta_sa.jpg" width="16" height= "16"> | Links to IPL-style item placement and zone files. |IPL DATA\EXAMPLE.ZON<br> IPL DATA\MAPS\EXAMPLE.IPL
+TEXDICTION | <img src="http://aux.iconspalace.com/uploads/gta-iii-icon-128.png" width="16" height= "16"><img src="https://steamuserimages-a.akamaihd.net/ugc/884253767815809101/E12B2FBA58134B56A8B7D046F5109390D1C06F2C/" width="16" height= "16"><img src="https://www.gtainside.com/downloads/picr/2017-08/1503174392_gta_sa.jpg" width="16" height= "16"> | Links to external texture dictionaries. | TEXDICTION MODELS\EXAMPLE.TXD
+MODELFILE | <img src="http://aux.iconspalace.com/uploads/gta-iii-icon-128.png" width="16" height= "16"><img src="https://steamuserimages-a.akamaihd.net/ugc/884253767815809101/E12B2FBA58134B56A8B7D046F5109390D1C06F2C/" width="16" height= "16"><img src="https://www.gtainside.com/downloads/picr/2017-08/1503174392_gta_sa.jpg" width="16" height= "16"> | Links to external model files. | MODELFILE MODELS\GENERIC\EXAMPLE.DFF
+SPLASH | <img src="http://aux.iconspalace.com/uploads/gta-iii-icon-128.png" width="16" height= "16"><img src="https://steamuserimages-a.akamaihd.net/ugc/884253767815809101/E12B2FBA58134B56A8B7D046F5109390D1C06F2C/" width="16" height= "16"><img src="https://www.gtainside.com/downloads/picr/2017-08/1503174392_gta_sa.jpg" width="16" height= "16"> | Links to splash screens that appear when transitioning between levels. The argument for these is not a path, but just the name (without extension) of a texture dictionary in the \models\txd directory. Might be ignored, though. | SPLASH loadsc2
+HIERFILE | <img src="http://aux.iconspalace.com/uploads/gta-iii-icon-128.png" width="16" height= "16"><img src="https://steamuserimages-a.akamaihd.net/ugc/884253767815809101/E12B2FBA58134B56A8B7D046F5109390D1C06F2C/" width="16" height= "16"><img src="https://www.gtainside.com/downloads/picr/2017-08/1503174392_gta_sa.jpg" width="16" height= "16"> | Unknown purpose. |
+EXIT | <img src="http://aux.iconspalace.com/uploads/gta-iii-icon-128.png" width="16" height= "16"><img src="https://steamuserimages-a.akamaihd.net/ugc/884253767815809101/E12B2FBA58134B56A8B7D046F5109390D1C06F2C/" width="16" height= "16"><img src="https://www.gtainside.com/downloads/picr/2017-08/1503174392_gta_sa.jpg" width="16" height= "16"> | Stops any further processing of the file. | 	
 
 Since Grand Theft Auto IV has various subdirectories which need to be identified there are new identifiers at the start of the path. They identify the exact location relative to the executeable file. Those are:
 
